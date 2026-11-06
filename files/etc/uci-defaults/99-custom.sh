@@ -138,6 +138,7 @@ uci commit
 FILE_PATH="/etc/openwrt_release"
 NEW_DESCRIPTION="Packaged by wukongdaily"
 sed -i "s/DISTRIB_DESCRIPTION='[^']*'/DISTRIB_DESCRIPTION='$NEW_DESCRIPTION'/" "$FILE_PATH"
+chmod -R 755 /usr/libexec/daed/
 
 # 若luci-app-advancedplus (进阶设置)已安装 则去除zsh的调用 防止命令行报 /usb/bin/zsh: not found的提示
 if [ -f /usr/lib/lua/luci/controller/advancedplus.lua ]; then
