@@ -31,7 +31,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-lucky lucky luci-i18n-lucky-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-sched-bpf kmod-sched-core kmod-ifb kmod-nft-core kmod-xdp-sockets-diag kmod-veth luci-app-daede"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-dae-zh-cn"
 # nailink
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-sched-bpf kmod-sched-core kmod-ifb kmod-nft-core kmod-xdp-sockets-diag kmod-veth luci-app-daed-router daed-router"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-sched-bpf kmod-sched-core kmod-ifb kmod-nft-core kmod-xdp-sockets-diag kmod-veth luci-app-daed-router daed-router"
 # 任务设置 by sirpdboy
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-taskplan luci-i18n-taskplan-zh-cn"
 # MosDNS
