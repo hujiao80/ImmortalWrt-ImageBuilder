@@ -37,10 +37,10 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-lucky lucky luci-i18n-lucky-zh-cn"
 # MosDNS
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-mosdns luci-i18n-mosdns-zh-cn"
 # 必备kmod
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-nft-socket kmod-nft-tproxy kmod-sched-bpf kmod-sched-core kmod-ifb kmod-nft-core kmod-xdp-sockets-diag kmod-veth"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-tun kmod-inet-diag kmod-nft-socket kmod-nft-tproxy kmod-sched-bpf kmod-sched-core kmod-ifb kmod-nft-core kmod-xdp-sockets-diag kmod-veth"
 
 # 仓库内代理相关apk
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES mihomo-meta luci-i18n-nikki-zh-cn"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES mihomo-meta luci-i18n-nikki-zh-cn"
 #luci-app-openvpn-server 配置文件存在bug 因此请勿集成 避免报错 但你可以集成luci-i18n-openvpn-zh-cn
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-openvpn-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-homeproxy-zh-cn"
