@@ -28,14 +28,16 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES bash quickfile luci-app-quickfile luci-i18n-qu
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-lucky lucky luci-i18n-lucky-zh-cn"
 # daed 升级到1.28.0
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-daed-zh-cn"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-sched-bpf kmod-sched-core kmod-ifb kmod-nft-core kmod-xdp-sockets-diag kmod-veth luci-app-daede"
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES dae daed luci-app-daede"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-dae-zh-cn"
-# nailink
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-sched-bpf kmod-sched-core kmod-ifb kmod-nft-core kmod-xdp-sockets-diag kmod-veth luci-app-daed-router daed-router"
+# nailink 最好不要与nikki同时集成
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-daed-router daed-router"
 # 任务设置 by sirpdboy
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-taskplan luci-i18n-taskplan-zh-cn"
 # MosDNS
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-mosdns luci-i18n-mosdns-zh-cn"
+# 必备kmod
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-nft-socket kmod-nft-tproxy kmod-sched-bpf kmod-sched-core kmod-ifb kmod-nft-core kmod-xdp-sockets-diag kmod-veth"
 
 # 仓库内代理相关apk
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES mihomo-meta luci-i18n-nikki-zh-cn"
